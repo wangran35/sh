@@ -1,0 +1,30 @@
+2020/07/10 17:00:13 [error] [php] The each() function is deprecated. This message will be suppressed on further calls (E:\phpstudy_pro\WWW\OA\IBOS\system\modules\message\core\co\CoApi.php:618)
+Stack trace:
+#0 E:\phpstudy_pro\WWW\OA\IBOS\system\modules\message\core\co\CoApi.php(483): application\modules\message\core\co\CoApi->getSignature()
+#1 E:\phpstudy_pro\WWW\OA\IBOS\system\modules\message\core\co\CoApi.php(263): application\modules\message\core\co\CoApi->returnSignParam()
+#2 E:\phpstudy_pro\WWW\OA\IBOS\system\modules\dashboard\controllers\CoController.php(181): application\modules\message\core\co\CoApi->judgeBind()
+#3 E:\phpstudy_pro\WWW\OA\IBOS\system\modules\dashboard\controllers\CoController.php(68): application\modules\dashboard\controllers\CobindingController->judgeFromApi()
+#4 E:\phpstudy_pro\WWW\OA\IBOS\system\modules\dashboard\controllers\CobindingController.php(56): application\modules\dashboard\controllers\CobindingController->init()
+#5 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CWebApplication.php(281): application\modules\dashboard\controllers\CobindingController->init()
+#6 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CWebApplication.php(141): application\core\components\Application->runController()
+#7 E:\phpstudy_pro\WWW\OA\IBOS\library\base\CApplication.php(185): application\core\components\Application->processRequest()
+#8 E:\phpstudy_pro\WWW\OA\IBOS\index.php(59): application\core\components\Application->run()
+REQUEST_URI=/?r=dashboard/cobinding/index&isInstall=1
+2020/07/10 17:17:51 [error] [php] Function create_function() is deprecated (E:\phpstudy_pro\WWW\OA\IBOS\system\modules\assignment\controllers\DefaultController.php:231)
+Stack trace:
+#0 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CController.php(286): application\modules\assignment\controllers\DefaultController->runAction()
+#1 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CController.php(265): application\modules\assignment\controllers\DefaultController->runActionWithFilters()
+#2 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CWebApplication.php(282): application\modules\assignment\controllers\DefaultController->run()
+#3 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CWebApplication.php(141): application\core\components\Application->runController()
+#4 E:\phpstudy_pro\WWW\OA\IBOS\library\base\CApplication.php(185): application\core\components\Application->processRequest()
+#5 E:\phpstudy_pro\WWW\OA\IBOS\index.php(59): application\core\components\Application->run()
+REQUEST_URI=/?r=assignment/default/show&assignmentId=2
+2020/07/10 17:17:56 [error] [php] Function create_function() is deprecated (E:\phpstudy_pro\WWW\OA\IBOS\system\modules\assignment\controllers\DefaultController.php:231)
+Stack trace:
+#0 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CController.php(286): application\modules\assignment\controllers\DefaultController->runAction()
+#1 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CController.php(265): application\modules\assignment\controllers\DefaultController->runActionWithFilters()
+#2 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CWebApplication.php(282): application\modules\assignment\controllers\DefaultController->run()
+#3 E:\phpstudy_pro\WWW\OA\IBOS\library\web\CWebApplication.php(141): application\core\components\Application->runController()
+#4 E:\phpstudy_pro\WWW\OA\IBOS\library\base\CApplication.php(185): application\core\components\Application->processRequest()
+#5 E:\phpstudy_pro\WWW\OA\IBOS\index.php(59): application\core\components\Application->run()
+REQUEST_URI=/?r=assignment/default/show&assignmentId=2
